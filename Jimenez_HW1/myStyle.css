@@ -1,0 +1,209 @@
+body {
+  font-family: sans-serif;
+}
+
+.p1 {
+  font-size: 10;
+}
+
+/*The very top bar of webpage*/
+.topBar {
+  width: 100%;
+  height: 35px;
+  background-color: #333333;
+  display: fixed;
+  position: fixed, static;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+/*text inside of the top bar*/
+.topBar_text {
+  text-align: center;
+  color: #fff;
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+/*Navigation Bar*/
+.flex-nav {
+  display: flex;
+  position: static;
+  width: 100%;
+  top: 35px;
+  height: 60px;
+  justify-content: center;
+  background-color: white;
+}
+
+/*text inside of navigation bar*/
+.flex-nav>div {
+  width: 110px;
+  margin: 10px;
+  margin-left: 150px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 0px 5px 0px 0px;
+}
+
+/*"Login" text postion*/
+.flex-nav>div:last-child {
+  margin-left: auto;
+}
+
+/*Big red rectangle*/
+.redBox {
+  background-color: #FF6363;
+  position: static;
+  height: 382px;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.redBox>h1:last-child {
+  line-height: 0px;
+}
+
+.redBox>h1:nth-last-child(2) {
+  color: #feff74;
+}
+
+.Choose {
+  text-align: center;
+}
+
+/*Flexbox containing subscription models*/
+.bigFlex {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  padding-top: 20px;
+}
+
+/*Smaller flexboxes in the subscription models*/
+#b1, #b2, #b3 {
+  width: 21%;
+  margin: 11px;
+  color: white;
+  padding-left: 20px;
+}
+
+#b1 {
+  background-color: #2e84ed;
+  border-radius: 5px;
+}
+
+#b1>div:last-child {
+  text-align: center;
+  background-color: #97c2f6;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 2.5;
+  margin: 10px 40px 20px 40px;
+  font-weight: bold;
+}
+
+#b2 {
+  background-color: #0f4a92;
+  border-radius: 5px;
+}
+
+#b2>div:last-child {
+  text-align: center;
+  background-color: #87a5c9;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 2.5;
+  margin: 10px 40px 20px 40px;
+  font-weight: bold;
+}
+
+#b3 {
+  background-color: #2c2c2c;
+  border-radius: 5px;
+}
+
+#b3>div:last-child {
+  text-align: center;
+  background-color: #969696;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 2.5;
+  margin: 10px 40px 20px 40px;
+  font-weight: bold;
+}
+
+/*flexbox for bulleted list*/
+.flexList {
+  display: flex;
+  justify-content: center;
+}
+
+/*custom bullet point for list*/
+li {
+  padding-bottom: 20px;
+  list-style-image: url('https://i.imgur.com/fNfX9LO.png');
+}
+
+/*Columns of text*/
+#c1, #c2, #c3 {
+  width: 24%;
+}
+
+/*terms and condtions*/
+#terms {
+  margin: 0px 300px 0px 300px;
+}
+
+/*Wrapping flex boxes*/
+.flexGrid {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/*Left flexbox of bulleted list text*/
+#g1 {
+  margin: 0px 300px 30px 300px;
+  width: 30%;
+  background-color: white;
+}
+
+/*Right flexbox of bulleted list text*/
+#g2 {
+  margin: 0px 150px 30px 0px;
+  width: 30%;
+  background-color: white;
+}
+
+/*FAQ text*/
+.FAQ {
+  text-align: left;
+  margin: 0px 0px 0px 300px
+}
+
+/*Footer*/
+.footBox {
+  display: flex;
+  justify-content: left;
+  background-color: #252527;
+  height: 320px;
+  color: white;
+}
+
+/*Nytimes logo and copyright in footer*/
+#f1 {
+  margin: 30px 20px 20px 300px
+}
+/*Rest of footer text*/
+#f2 {
+  margin: 30px 20px 20px 20px
+}
